@@ -1,0 +1,11 @@
+
+print("Hello \n World")
+print("--------------")
+print("Hello \nWorld")
+print("--------------")
+print("Hello\b\b World")
+print("--------------")
+print("Hello world \rHi world")
+print("--------------")
+print("Hello \t World")
+print("--------------")
