@@ -10,7 +10,6 @@ counter = 0
 secret_word = "python"
 #while loop
 while counter < 7:
-    doWhileVariable = False
     word = input("Enter the secret word: ")
     counter = counter + 1
     if word == secret_word:
