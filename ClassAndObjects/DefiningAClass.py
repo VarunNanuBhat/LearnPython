@@ -11,7 +11,10 @@ class PrintHelloWorld:
 
 
 # Creating the objects for class "PrintHelloWorld"
-obj = PrintHelloWorld()
+obj1 = PrintHelloWorld()
+obj2 = PrintHelloWorld()
 
 # Calling the object obj to pint "Hello World!!"
-PrintHelloWorld.print_hello_world(obj)
+# In the below case, object is passed as a parameter, hence self keyword will refer to the object itself. 
+obj1.print_hello_world()
+obj2.print_hello_world()
