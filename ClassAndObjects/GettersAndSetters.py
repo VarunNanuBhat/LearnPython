@@ -7,16 +7,16 @@ help of getters and setters
 class EligibleForVoting:
 
     def __init__(self, age = 0):
-        self.age = age
+        self._age = age
 
     # This method will return the age of the user.
     def get_age(self):
-        return self.age
+        return self._age
 
     # This method only set the age of user if it is >18 else the age will be set to 0.
     def set_age(self, age):
         if (age >= 18):
-            self.age = age
+            self._age = age
 
 # Creating 2 objects for class EligibleForVoting
 varun = EligibleForVoting()
