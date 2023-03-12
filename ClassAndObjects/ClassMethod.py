@@ -1,6 +1,6 @@
 '''
 Program to print student details
-and demonstrate class method
+and demonstrate class variable
 '''
 
 class StudentDetails:
